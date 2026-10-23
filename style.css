@@ -1877,7 +1877,7 @@ body.light-mode .skill-info p {
 }
 
 /* ============================= */
-/* SOFTWARE DEVELOPER ILLUSTRATION */
+/* SOFTWARE DEVELOPER > */
 /* ============================= */
 
 .developer-illustration {
@@ -2238,4 +2238,25 @@ body.light-mode .code-content {
 
 .footer-socials a:hover {
     color: #2196ff;
+}
+
+
+/* Developer Image */
+.developer-image {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 18px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 20px rgba(33, 150, 255, 0.2));
+}
+
+/* Responsive Image */
+@media (max-width: 600px) {
+    .developer-image {
+        max-width: 100%;
+        margin: 15px auto;
+    }
 }
